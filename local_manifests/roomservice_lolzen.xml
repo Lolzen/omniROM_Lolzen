@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--OmniROM Lolzen Edition-->
+<manifest>
+ <!--integrate myy own kernel /-->
+  <remove-project name="android_kernel_lge_mako" />
+  <remote fetch="https://github.com/Lolzen" name="lolzen" />
+  <project name="kernel_mako" path="kernel/lge/mako" remote="lolzen" revision="omni-5.0" />
+ <!--proprietary stuff /-->
+  <remote fetch="https://github.com/TheMuppets" name="TheMuppets" />
+  <project name="proprietary_vendor_lge" path="vendor/lge" remote="TheMuppets" revision="cm-12.0" />
+</manifest>
