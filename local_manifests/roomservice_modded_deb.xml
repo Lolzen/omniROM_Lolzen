@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<!--remove the original device tree-->
+  <remove-project name="android_device_asus_deb" />
+<!--add my repo as remote-->
+<remote fetch="https://github.com/Lolzen" name="lolzen" />
+  <project name="android_device_asus_deb" path="device/asus/deb" remote="lolzen" revision="android-5.1" />
+</manifest>

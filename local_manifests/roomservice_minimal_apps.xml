@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Please do not manually edit this file-->
+<manifest>
+<!--Apps-->
+<remove-project name="android_packages_apps_Apollo" />
+<remove-project name="android_packages_apps_Browser" />
+<remove-project name="android_packages_apps_OmniSwitch" />
+<remove-project name="android_packages_apps_OmniTorch" />
+<remove-project name="android_packages_apps_VoiceDialer" />
+<!--Wallpapers-->
+<remove-project name="android_packages_wallpapers_Basic" />
+<remove-project name="platform/packages/wallpapers/Galaxy4" />
+<remove-project name="platform/packages/wallpapers/HoloSpiral" />
+<remove-project name="platform/packages/wallpapers/MagicSmoke" />
+<remove-project name="platform/packages/wallpapers/MusicVisualization" />
+<remove-project name="platform/packages/wallpapers/NoiseField" />
+</manifest>

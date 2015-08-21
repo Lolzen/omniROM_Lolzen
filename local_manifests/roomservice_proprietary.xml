@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Please do not manually edit this file-->
+<manifest>
+<remote fetch="https://github.com/TheMuppets" name="TheMuppets" />
+  <project name="proprietary_vendor_asus" path="vendor/asus" remote="TheMuppets" revision="cm-12.1" />
+</manifest>
